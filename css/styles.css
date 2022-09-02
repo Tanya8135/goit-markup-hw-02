@@ -1,4 +1,154 @@
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     color: #212121;
+}
+
+:root {
+    --transitional-text-color: #2196F3;
+    --title-text-color: #212121;
+}
+
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000000;
+}
+
+.logo span {
+    color: var(--transitional-text-color);
+}
+
+/* Portfolio */
+/* Site nav */
+.site-nav .nav-link {
+    text-decoration: none;
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.list {
+    list-style: none;
+}
+
+.site-nav .nav-link:hover, 
+.site-nav .nav-link:focus {
+    color: var(--transitional-text-color)
+}
+
+/* Section main */
+.btn-text {
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--title-text-color);
+}
+
+/* .btn-main {
+    width: 125px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px; */
+}
+
+.header-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--title-text-color);
+}
+
+.list-text {
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+}
+
+/* Maim section */
+.hero {
+    background: #2F303A;
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/* Footer section */
+.logo-footer {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.address-list {
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #FFFFFF;
+}
+
+.contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* About section */
+.about-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+
+.about-text {
+    font-size: 14px;
+    line-height: 1.7;   
+    color: #757575;
+}
+
+/* img section */
+.general-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--title-text-color);
+}
+
+/* Team section */
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--title-text-color);
+}
+
+.name-text {
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
 }
