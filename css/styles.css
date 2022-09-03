@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #212121;
 }
 
@@ -45,16 +45,24 @@ body {
 .btn-text {
     list-style: none;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.6;
     color: var(--title-text-color);
 }
 
-/* .btn-main {
-    width: 125px;
-    height: 38px;
+.btn-filter {
     background: #F5F4FA;
-    border-radius: 4px; */
+    border-radius: 4px;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.frame {
+    border: none;
 }
 
 .header-text {
@@ -65,7 +73,6 @@ body {
 }
 
 .list-text {
-    font-size: 16px;
     line-height: 1.87;
     color: #757575;
 }
@@ -84,7 +91,6 @@ body {
 
 .hero-btn {
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.87;
     color: #FFFFFF;
     background: #2196F3;
@@ -143,13 +149,11 @@ body {
 /* Team section */
 .name {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.87;
     color: var(--title-text-color);
 }
 
 .name-text {
-    font-size: 16px;
     line-height: 1.87;
     color: #757575;
 }
